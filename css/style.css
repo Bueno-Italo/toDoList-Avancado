@@ -1,0 +1,44 @@
+/*Geral*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    color: #3d3d3d;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+button {
+    background-color: #FDFDFD;
+    color:#102f5e;
+    border: 2px solid #102f5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #102f5e;
+    color: #FFF;
+}
+
+button:hover > i {
+    color: #FFF;
+}
+
+button i {
+    color: #102f5e;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input, select {
+    padding: 0.25rem 0.5rem;
+}
